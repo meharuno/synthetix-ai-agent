@@ -71,6 +71,39 @@ We want to talk to you.
 # 🧪 Live Use Cases Coming Soon
 Stay tuned for our first batch of monetizable AI services.
 
+## How to Run the Project
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/meharuno/synthetix-ai-agent.git
+cd synthetix-ai-agent
+```
+
+-----
+### 2. Set up a Virtual Environment
+```bash
+python -m venv venv
+source venv/bin/activate  # Mac/Linux
+# OR
+venv\Scripts\activate     # Windows
+```
+------
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+------
+### 4. Start the Ollama Server
+```bash
+ollama serve &
+```
+------
+### 5. Run the Agent Script
+```bash
+python3 /Users/mycomputer/Desktop/Focus_Area/synthetix-ai-agent/app/agent.py
+```
+----
+
 
 
 
